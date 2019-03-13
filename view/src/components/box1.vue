@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Box1',
+  name: 'H',
   data () {
     return {
       msg: '1'

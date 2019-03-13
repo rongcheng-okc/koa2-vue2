@@ -4,6 +4,10 @@ import HelloWorld from '@/components/HelloWorld'
 import Page1 from '@/components/Page1'
 import Box1 from '@/components/Box1'
 import Box2 from '@/components/Box2'
+import Page2 from '@/components/Page2'
+import Page3 from '@/components/Page3'
+import Page4 from '@/components/Page4'
+import Page5 from '@/components/Page5'
 
 Vue.use(Router)
 
@@ -11,8 +15,28 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
+      name: 'helloworld',
       component: HelloWorld
+    },
+    {
+      path: '/page2',
+      name: 'page2',
+      component: Page2
+    },
+    {
+      path: '/page3',
+      name: 'page3',
+      component: Page3
+    },
+    {
+      path: '/page4',
+      name: 'page4',
+      component: Page4
+    },
+    {
+      path: '/page5',
+      name: 'page5',
+      component: Page5
     },
     {
       path: '/page1',

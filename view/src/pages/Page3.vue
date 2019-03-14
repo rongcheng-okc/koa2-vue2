@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ObjectProp from './ObjectProp'
+import ObjectProp from '../components/ObjectProp'
 export default {
     data() {
         return {

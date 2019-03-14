@@ -7,8 +7,8 @@
 
 </template>
 <script>
-    import Com1 from './Box1'
-    import Com2 from './Box2'
+    import Com1 from '../components/Box1'
+    import Com2 from '../components/Box2'
     export default {
         data() {
             return {

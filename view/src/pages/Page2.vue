@@ -6,7 +6,7 @@
     </div>
 </template>
 <script>
-import VModelInput from './VModel'
+import VModelInput from '../components/VModel'
 export default {
     data() {
         return {

@@ -1,14 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import Page1 from '@/components/Page1'
 import Box1 from '@/components/Box1'
 import Box2 from '@/components/Box2'
-import Page2 from '@/components/Page2'
-import Page3 from '@/components/Page3'
-import Page4 from '@/components/Page4'
-import Page5 from '@/components/Page5'
-import Page6 from '@/components/Page6'
+
+import Page1 from '@/pages/Page1'
+import Page2 from '@/pages/Page2'
+import Page3 from '@/pages/Page3'
+import Page4 from '@/pages/Page4'
+import Page5 from '@/pages/Page5'
+import Page6 from '@/pages/Page6'
 
 Vue.use(Router)
 

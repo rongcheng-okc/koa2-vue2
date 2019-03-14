@@ -31,8 +31,8 @@
 
 </template>
 <script>
-    import SlotCom from './Slot'
-    import BoxCom from './Box1'
+    import SlotCom from '../components/Slot'
+    import BoxCom from '../components/Box1'
 
     export default {
         data() {
